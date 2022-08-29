@@ -1,0 +1,99 @@
+@charset "UFT-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+:root {
+    --fontgamer: 'Silkscreen', cursive;
+    --fontnormal: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #e67be7, #cd63cf);
+}
+
+footer {
+    background-color: #e67be7;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: var(--fontgamer);
+    border: solid 2px black;
+    box-shadow: black 3px 3px 3px 3px;
+}
+
+footer > h1{
+    font-family: var(--fontgamer);
+    color: rgb(41, 40, 40);
+    border: solid 1px black;
+    border-radius: 3px;
+    box-shadow: black 1px 1px 3px 1px;
+    background-color: #ff94ff;
+}
+
+footer > p {
+    font-family: var(--fontgamer);
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main {
+    background-image: url(23417.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    height: 100%;
+    height: 300px;
+    width: 800px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: black 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 84%);
+    background-attachment: fixed;
+}
+
+.botao {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: var(--fontgamer);
+    width: 100px;
+    height: 50px;
+    border: white solid 2px;
+    border-radius: 3px;
+}
+
+#btnYes:hover {
+    background-color: green;
+    color: white;
+}
+
+#btnNo:hover {
+    background-color: red;
+    color: white;
+}
+
+#btnYes {
+    background-color: #cd63cf;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#btnNo {
+    background-color: #cd63cf;
+    transition: 0.3s;
+    position: relative;
+    top: 100px;
+    left: 50px
+}
