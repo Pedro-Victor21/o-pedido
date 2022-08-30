@@ -44,11 +44,12 @@ footer > p {
 }
 
 main {
+    align-items: center;
     background-image: url(23417.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; 
-    height: 100%;
+    height: 200%;
     height: 300px;
     width: 800px;
     align-items: center;
@@ -64,6 +65,7 @@ main {
 }
 
 .botao {
+    align-items: center;
     cursor: pointer;
     font-size: 20px;
     font-family: var(--fontgamer);
@@ -71,6 +73,9 @@ main {
     height: 50px;
     border: white solid 2px;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 #btnYes:hover {
@@ -95,5 +100,9 @@ main {
     transition: 0.3s;
     position: relative;
     top: 100px;
-    left: 50px
+    left: 50px;
+    display: flex;
+    justify-content: center;
+   /* position: relative; */
+    left: 80%; 
 }
