@@ -1,9 +1,11 @@
 let btnNo = document.querySelector('#btnNo')
 let tentativas = 0
 btnNo.onmouseover = trocarLugar
+//a função foi adicionada diretamente usando o nome da variável PONTO evento recebe (nome da function)
 btnNo.onclick = naoama
 
 let btnYes = document.querySelector('#btnYes')
+//a função foi adicionada diretamente usando o nome da variável PONTO evento recebe (nome da function)
 btnYes.onclick = Felicidade
 
 function trocarLugar(){

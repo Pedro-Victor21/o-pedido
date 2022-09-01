@@ -49,7 +49,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; 
-    height: 200%;
     height: 300px;
     width: 800px;
     align-items: center;
@@ -73,9 +72,9 @@ main {
     height: 50px;
     border: white solid 2px;
     border-radius: 3px;
-    display: flex;
+    /*display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: row;*/
 }
 
 #btnYes:hover {
@@ -106,3 +105,22 @@ main {
    /* position: relative; */
     left: 80%; 
 }
+
+@media screen and (max-width: 500px){
+    /* MAX-WIDTH quando a tela for menor que alguma resolução*/
+    /* MAX-HEIGHT */
+     footer {font-size: 20px;}
+     main {
+            font-size: 10px;
+            width: 300px;
+            height: 100px;
+    }
+    main .botao{
+            font-size: 10px;
+            height: 20px;
+            width: 50px;
+    }
+    main #btnYes, main #btnNo{
+            top: 30px;
+    }
+    }
